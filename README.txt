@@ -38,15 +38,6 @@ $ git checkout -
 - 원격 저장소에 커밋 올리기
 $ git remote add origin "깃허브 리포지토리 주소"
 
-==============remote error=============
-$ git remote remove origin -> remove 로 삭제
-
-$ git remote add origin "깃허브 리포지토리 주소"
-
-$ git remote -v 로 확인
-
-$ git push origin master
-==================================
 
 -- 로컬 저장소에서 원격저장소로 올리기
 $ git push origin master
@@ -68,13 +59,7 @@ $ git push origin master
 -- 원격 저장소의 새로운 커밋을 로컬 저장소에 갱신하기. --> 항상 폴더를 헷갈리지 않도록 주의
 $ git pull origin master
 
-================error: failed to push some refs to============
-원격저장소(github)에 내 로컬에는 없는 파일이 있을 때 내 파일(작업 내용)을 push 할때 발생함 -> 로컬저장소에 pull을 하고 원격저장소에 다시 push를 하면 해결됨.
 
-$ git pull origin master
-
-$ git push origin mater
-==================================================
 
 --- branch : 다수의 협업자들의 프로젝트를 진행하기 편하게 하기 위함
 
@@ -90,3 +75,25 @@ $ git push origin mater
 - 여러 branch를 하나로 통합 할 수 있다.
 
 - branch 병합 충돌
+
+===================================
+==============remote error=========
+$ git remote remove origin -> remove 로 삭제
+
+$ git remote add origin "깃허브 리포지토리 주소"
+
+$ git remote -v 로 확인
+
+$ git push origin master
+==================================
+==================================
+
+==============================================================
+================error: failed to push some refs to============
+원격저장소(github)에 내 로컬에는 없는 파일이 있을 때 내 파일(작업 내용)을 push 할때 발생함 -> 로컬저장소에 pull을 하고 원격저장소에 다시 push를 하면 해결됨.
+
+$ git pull origin master
+
+$ git push origin mater
+===============================================================
+================================================================
