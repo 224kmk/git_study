@@ -18,7 +18,7 @@ $ git config --global user.email "본인 로그인 이멜"
 $ git config --global user.name "본인 깃허브 이름"
 
  - remote 추가
- $ git remote add origin github_http
+$ git remote add origin github_http
 
 - 커밋 추가
 $ git add 파일이름.형식
