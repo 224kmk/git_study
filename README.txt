@@ -106,3 +106,9 @@ $ git push origin mater
 -- -l : 파일이나 디렉토리 상세 정보 함께 표시
 -- -r : 파일 정렬 순서를 거꾸로 바꾸어 표시
 -- -t: 작성시간순으로 (내림차순) 표시
+
+- git branch default값 변경 master -> main
+
+$ git branch -m master main
+$ git fetch origin
+$ branch -u origin/main main
